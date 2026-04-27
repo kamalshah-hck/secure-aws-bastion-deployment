@@ -44,6 +44,8 @@ After setting up the VPC and subnets, I created the security groups for both the
 
 
 After this, I launched the EC2 instances. The Bastion Host was deployed in the public subnet and has both public and private IP addresses, while the private web server EC2 instance was deployed in the private subnet with only a private IP address.
+![Bastion Host](screenshots/Bastion Host Instance(1).png)
+![Web Server](screenshots/Web-server Instance(1).png)
 
 For testing, I used Git Bash to connect via SSH to the Bastion Host. From there, I connected to the private web server using its private IP. On the private instance, I deployed a basic HTML website.
 
