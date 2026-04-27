@@ -23,6 +23,7 @@ With this setup, public access to the private infrastructure is restricted, and 
 ### Steps
 
 I started with creating the VPC. I created a VPC (vpc-001) with the CIDR block 10.0.0.0/16. After that, I created two subnets in two different availability zones. Although using two availability zones is not very critical for this project, as it mainly helps in high availability and disaster recovery, I still applied it to practice.
+![VPC](screenshots/VPC.png)
 
 
 
