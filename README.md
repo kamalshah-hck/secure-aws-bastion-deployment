@@ -15,7 +15,7 @@ With this setup, public access to the private infrastructure is restricted, and 
 
 
 ### Architecture
-![Architecture](architecture.png)
+![Architecture](Architecture.png)
 
 
 
